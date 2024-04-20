@@ -1,0 +1,271 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+#header{
+  display: flex;
+  height: 90px;
+  background-color: #1F2937;
+  justify-content: space-between;
+}
+
+.container_header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  gap:10px;
+  margin-left: 100px;
+}
+
+.container_header img{
+  height: 80px;
+  width: 80px;
+}
+
+.container_header p{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.container_links{
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+  padding: 10px;
+  gap: 10px;
+}
+
+#first{
+  height: 920px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_first{
+  height: 600px;
+  width: 1600px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container_first .first_left{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container_first .first_left .top{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  width: 350px;
+}
+
+.container_first .first_left .middle{
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 550px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+.container_first .first_left button{
+  background-color: #3882F6;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  color:#F9FAF8;
+}
+
+.container_first img{
+  width: 600px;
+  height: 600px;
+}
+#second{
+  height: 480px;
+  background-color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_second{
+  width: 13000px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.container_second p{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.container_second .second_bottom{
+  width: 1300px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container_second .second_bottom .item{
+  width: 250px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.item img{
+  height: 245px;
+  width: 240px;
+  padding: 20px;
+}
+
+.item p{
+  font-size: 18px;
+}
+
+#third{
+  height: 460px;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_third{
+  height: 450px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_third .quote{
+  font-size: 36px;
+  font-style: italic;
+  width: 1200px;
+}
+
+.container_third .speaker{
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: end;
+  width: 1100px;
+  color: #1F2937;
+}
+
+#forth{
+  height: 410px;
+  background-color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_forth{
+  width: 1100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 20px;
+}
+
+.container_forth .left{
+  width: 600px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container_forth .right{
+  width: 140px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_forth .left .heading{
+  font-size: 36px;
+  color: #F9FAF8;
+}
+
+.container_forth .left .summary{
+  font-size: 20px;
+  color: #F9FAF8;
+}
+
+.container_forth .right button{
+  width: 140px;
+  height: 40px;
+  background-color: #3882F6;
+  border: 3px solid #F9FAF8;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #F9FAF8;
+
+}
+
+#footer{
+  display: flex;
+  height: 90px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_footer{
+  font-size: 18px;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container_footer img{
+  width: 30px;
+  height: 30px;
+}
